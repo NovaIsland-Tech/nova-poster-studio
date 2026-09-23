@@ -1,0 +1,13 @@
+project_id = "nova-poster"
+[auth]
+site_url = "https://nova-poster-studio.pages.dev"
+additional_redirect_urls = ["https://nova-poster-studio.pages.dev/auth/confirm/", "https://nova-poster-studio.pages.dev/account/", "http://localhost:3000/auth/confirm", "http://localhost:3000/auth/confirm/", "http://127.0.0.1:3000/auth/confirm"]
+enable_signup = false
+minimum_password_length = 6
+password_requirements = ""
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+
+[functions.nova-members]
+verify_jwt = true

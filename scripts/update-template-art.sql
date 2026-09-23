@@ -1,0 +1,9 @@
+update public.nova_templates set color='#a74c28',ink='#fff3de',style='暖陶橙色摄影棚背景，编辑杂志式人物肖像，柔和侧光，保留人物特征，主体居中下方，上方留白' where id='personal-ip' and style='编辑杂志式构图，主体居右，左侧大面积留白，柔和自然光，克制的淡紫色背景';
+update public.nova_templates set color='#71776a',ink='#fff6e4',style='专业讲师肖像，灰绿色摄影棚背景，柔和侧光，保留人物特征，主体居中下部，顶部留白' where id='speaker' and style='清晰专业的讲师介绍，人物居右，深绿色与米白色搭配，左侧留白';
+update public.nova_templates set color='#ead9c3',ink='#594631',style='温暖胶片摄影氛围，米色日光生活场景，保留人物特征，真实自然，顶部留白' where id='lifestyle' and style='温暖胶片摄影氛围，保留人物特征，生活场景，柔和日光，上方留白';
+update public.nova_templates set color='#f2ece2',ink='#253022',style='当代设计课程海报，象牙白建筑拱门与钴蓝雕塑缎带，少量橙色球体，材质真实，参考主体位于中下方，顶部留白' where id='course-open' and style='当代教育海报，紫色几何结构与柔和渐变，人物或课程素材位于右下角，上方左侧留白';
+update public.nova_templates set color='#b4b8db',ink='#29304d',style='当代创意课程海报，淡蓝紫背景，透明玻璃雕塑与铬金属细节，黑色展台，参考主体居中下部，顶部留白' where id='course-new' and style='清爽蓝色教育海报，阶梯形视觉元素，丰富空间层次，主体居右，左侧留白';
+update public.nova_templates set color='#efceba',ink='#593923',style='温暖陶橙色学习场景，米白纸张与钴蓝折纸，斜向日光，参考主体完整置于中下方，顶部留白' where id='course-enroll' and style='暖橙色招生海报，柔和圆形几何，亲和可信，主体居右下，顶部留白';
+update public.nova_templates set color='#dce4cd',ink='#3c5032',style='高级产品静物摄影，自然苔绿色背景，石材台座与树叶投影，保持上传产品原有外形包装，产品居中偏下，顶部充足留白' where id='product-new' and style='高级护肤品静物摄影，自然苔绿色背景，石材台座与树叶投影，产品居中偏下，顶部充足留白';
+update public.nova_templates set color='#e6dfd7',ink='#4f4640',style='极简产品摄影，暖米白背景，石材台座，细腻皮革或原有产品材质，精致日光，产品完整居中偏下，顶部留白' where id='product-detail' and style='极简产品摄影，暖灰色背景，精致光影，产品居中偏右，左上留白，保持包装细节';
+update public.nova_templates set color='#f3be8e',ink='#4c3025',style='鲜明杏橙色促销海报，钴蓝立体台座，轻盈动态构图，保持上传产品原形，产品完整位于中下部，顶部留白' where id='product-sale' and style='暖珊瑚色促销海报，鲜明几何构图与轻盈立体台座，产品居右下，左上留白';
